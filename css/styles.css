@@ -6,3 +6,70 @@ html {
 *::after {
   box-sizing: inherit;
 }
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  background-color: rgba(107, 238, 255, 0.3);
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.container {
+  max-width: 900px;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.news-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 500px;
+  background-image: linear-gradient(
+    to bottom,
+    #333 0%,
+    rgba(49, 47, 47, 0.5) 0%,
+    rgba(49, 47, 47, 0.5) 95%,
+    #333 100%),
+  url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.news-section-content {
+  color: #fff;
+}
+.news-section-heading {
+  margin-top: 0;
+  margin-bottom: 3px;
+}
+.news-section-text {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.making-btn {
+  display: flex;
+  align-items: center;
+  background: rgba(67, 156, 104, 0.7);
+  border: none;
+  padding: 3px 20px;
+  color: #fff;
+  border-radius: 25px;
+}
+.making-btn img {
+  display: block;
+  margin-right: 10px;
+}
