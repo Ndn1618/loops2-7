@@ -75,6 +75,11 @@ body {
   padding: 3px 20px;
   color: #fff;
   border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.making-btn:hover {
+  background: rgba(67, 156, 104, 0.9);
 }
 .making-btn img {
   display: block;
@@ -109,8 +114,10 @@ body {
 .articles-years-link {
   text-decoration: none;
   color: #999;
+  transition: color 0.3s ease;
 }
-.articles-years-link-active {
+.articles-years-link-active,
+.articles-years-link:hover {
   color: #000;
 }
 .articles-group-list {
