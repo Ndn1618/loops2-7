@@ -30,6 +30,13 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+.section-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  overflow: hidden;
+}
 .news-section {
   display: flex;
   align-items: center;
@@ -72,4 +79,36 @@ body {
 .making-btn img {
   display: block;
   margin-right: 10px;
+}
+.articles-section {
+  width: 500px;
+  height: 500px;
+  padding: 10px 30px;
+  background-color: #fff;
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.articles-section::-webkit-scrollbar {
+  display: none;
+}
+.articles-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.articles-years-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.articles-years-link {
+  text-decoration: none;
+  color: #999;
+}
+.articles-years-link-active {
+  color: #000;
 }
