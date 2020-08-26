@@ -94,7 +94,8 @@ body {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
-.articles-section::-webkit-scrollbar {
+.articles-section::-webkit-scrollbar,
+.articles-years-list::-webkit-scrollbar {
   display: none;
 }
 .articles-header {
@@ -105,13 +106,16 @@ body {
 .articles-years-list {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   margin: 0;
   padding: 0;
   list-style-type: none;
   margin-bottom: 20px;
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 .articles-years-link {
+  margin-right: 30px;
   text-decoration: none;
   color: #999;
   transition: color 0.3s ease;
