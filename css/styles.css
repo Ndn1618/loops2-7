@@ -103,7 +103,7 @@ body {
   background-color: #fff;
   overflow: auto;
   -ms-overflow-style: none;
-  scrollbar-width: none;
+
 }
 
 .articles-header {
@@ -145,7 +145,6 @@ body {
   margin-bottom: 20px;
   overflow: auto;
   -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
 }
 
 .articles-years-list::-webkit-scrollbar {
@@ -169,7 +168,6 @@ body {
   padding: 0;
   list-style-type: none;
   -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
 }
 
 .articles-group-list::-webkit-scrollbar {
