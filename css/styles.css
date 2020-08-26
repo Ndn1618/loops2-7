@@ -86,9 +86,9 @@ body {
   margin-right: 10px;
 }
 .articles-section {
-  width: 500px;
+  width: 600px;
   height: 500px;
-  padding: 10px 30px;
+  padding: 30px;
   background-color: #fff;
   overflow: auto;
   -ms-overflow-style: none;
@@ -102,6 +102,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 20px;
+}
+.articles-heading {
+  margin: 0;
 }
 .articles-years-list {
   display: flex;
@@ -151,7 +155,7 @@ body {
   align-items: center;
 }
 .articles-group-date {
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 300;
   margin-right: 7px;
 }
@@ -160,6 +164,6 @@ body {
   margin: 0;
 }
 .articles-date-month {
-  font-weight: 500;
+  font-weight:bold;
   text-transform: uppercase;
 }
