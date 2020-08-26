@@ -1,11 +1,13 @@
 html {
   box-sizing: border-box;
 }
+
 *,
 *::before,
 *::after {
   box-sizing: inherit;
 }
+
 body {
   margin: 0;
   padding: 0;
@@ -14,6 +16,7 @@ body {
   line-height: 1.5;
   background-color: rgba(107, 238, 255, 0.3);
 }
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -24,12 +27,14 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 .container {
   max-width: 900px;
   margin-top: 70px;
   margin-left: auto;
   margin-right: auto;
 }
+
 .section-divider {
   display: flex;
   align-items: center;
@@ -37,6 +42,7 @@ body {
   border-radius: 3px;
   overflow: hidden;
 }
+
 .news-section {
   display: flex;
   align-items: center;
@@ -47,24 +53,28 @@ body {
     to bottom,
     rgba(49, 47, 47, 0.5),
     rgba(49, 47, 47, 0.5)),
-  url("../img/background.jpg");
+    url("../img/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
+
 .news-section-content {
   color: #fff;
 }
+
 .news-section-heading {
   margin-top: 0;
   margin-bottom: 3px;
 }
+
 .news-section-text {
   margin-top: 0;
   margin-bottom: 12px;
   font-size: 14px;
   color: rgba(255, 255, 255, 0.8);
 }
+
 .making-btn {
   display: flex;
   align-items: center;
@@ -76,13 +86,16 @@ body {
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
+
 .making-btn:hover {
   background: rgba(67, 156, 104, 0.9);
 }
+
 .making-btn img {
   display: block;
   margin-right: 10px;
 }
+
 .articles-section {
   width: 600px;
   height: 500px;
@@ -92,19 +105,23 @@ body {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
 .articles-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 20px;
 }
+
 .articles-heading {
   margin: 0;
 }
+
 .years-section {
   position: relative;
   z-index: 1;
 }
+
 .years-section::after {
   content: "";
   position: absolute;
@@ -113,10 +130,12 @@ body {
   right: 0;
   width: 30px;
   height: 100%;
-  background-image: linear-gradient(to left,
+  background-image: linear-gradient(
+    to left,
     rgba(255, 255, 255, 0.9),
     rgba(255, 255, 255, 0.1));
 }
+
 .articles-years-list {
   display: flex;
   align-items: center;
@@ -128,19 +147,23 @@ body {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
+
 .articles-years-list::-webkit-scrollbar {
   display: none;
 }
+
 .articles-years-link {
   margin-right: 25px;
   text-decoration: none;
   color: #999;
   transition: color 0.4s ease;
 }
+
 .articles-years-link-active,
 .articles-years-link:hover {
   color: #000;
 }
+
 .articles-group-list {
   margin: 0;
   padding: 0;
@@ -148,39 +171,48 @@ body {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
+
 .articles-group-list::-webkit-scrollbar {
   display: none;
 }
+
 .articles-group-item {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
 }
+
 .articles-group-item:last-child {
   margin-bottom: 0;
 }
+
 .articles-group-img {
   display: block;
   border-radius: 50%;
 }
+
 .articles-group-title {
   margin: 0 20px;
   font-size: 16px;
 }
+
 .articles-group-time {
   display: flex;
   align-items: center;
   margin-left: auto;
 }
+
 .articles-group-date {
   font-size: 32px;
   font-weight: 300;
   margin-right: 7px;
 }
+
 .articles-date p {
   font-size: 14px;
   margin: 0;
 }
+
 .articles-date-month {
   font-weight:bold;
   text-transform: uppercase;
